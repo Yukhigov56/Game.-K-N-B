@@ -1,5 +1,5 @@
 function getComputerChoice() {
-    const randomStr = Math.floor(Math.random() * 3);
+    const randomStr = Math.floor(Math.random() * 2);
     if (randomStr == 0) {
       return "Ножница";
     } else if (randomStr == 1) {
@@ -52,19 +52,19 @@ function getComputerChoice() {
 
   function game() {
     console.log(playRound(playerSelection, computerSelection));
-    playerSelection = prompt("");
+    playerSelection = prompt("Выберите: КАМЕНЬ, НОЖНИЦЫ, БУМАГА");
 
     console.log(playRound(playerSelection, computerSelection));
-    playerSelection = prompt("");
+    playerSelection = prompt("Выберите: КАМЕНЬ, НОЖНИЦЫ, БУМАГА");
 
     console.log(playRound(playerSelection, computerSelection));
-    playerSelection = prompt("");
+    playerSelection = prompt("Выберите: КАМЕНЬ, НОЖНИЦЫ, БУМАГА");
 
     console.log(playRound(playerSelection, computerSelection));
-    playerSelection = prompt("");
+    playerSelection = prompt("Выберите: КАМЕНЬ, НОЖНИЦЫ, БУМАГА");
 
     console.log(playRound(playerSelection, computerSelection));
-    playerSelection = prompt("");
+    playerSelection = prompt("Выберите: КАМЕНЬ, НОЖНИЦЫ, БУМАГА");
     
   }
 
